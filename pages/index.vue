@@ -1062,22 +1062,35 @@
           <div
             class="card bg-base-100 shadow-xl hover:shadow-2xl transition-shadow border border-gray-100"
           >
-            <figure>
+            <figure class="">
+              <!-- <video
+      src="/assets/images/enfedam/VID-20250311-WA0006.mp4"
+      autoplay
+      muted
+      loop
+      playsinline
+      class="w-full h-48 object-cover"
+    ></video> -->
               <img
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-03-07%20163528-BMunWtyxjeNYJrbYUcAWN4NkLtUJ51.png"
-                alt="School Event"
+                src="../public/assets/images/enfedam/interhousesport.jpg"
+                alt="Interhouse Sport Competition"
                 class="h-64 w-full object-cover"
               />
             </figure>
             <div class="card-body">
               <div class="badge badge-warning text-white mb-2">Event</div>
               <h3 class="card-title text-[#1e3a8a]">
-                Annual Science Fair 2023
+                INTERHOUSE-SPORT COMPETITION
               </h3>
-              <p class="text-gray-500 text-sm mb-2">October 15, 2023</p>
+              <p class="text-gray-500 text-sm mb-2">February 22nd, 2025</p>
               <p class="text-gray-600">
-                Our students showcased their innovative science projects at the
-                annual science fair, impressing judges and visitors alike.
+                Enfedam Academy's Interhouse Sports event was a day filled with
+                excitement, teamwork, and fierce competition. Students from all
+                houses participated in races, football, and other sports,
+                showcasing their athletic skills and sportsmanship. The event
+                highlighted the importance of physical fitness and teamwork,
+                leaving everyone inspired and energized. Well done to all
+                participants and the winning house!
               </p>
               <div class="card-actions justify-end mt-4">
                 <button
@@ -1095,7 +1108,7 @@
           >
             <figure>
               <img
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-03-07%20163528-BMunWtyxjeNYJrbYUcAWN4NkLtUJ51.png"
+                src="/assets/images/enfedam/IMG-20241029-WA0035.jpg"
                 alt="School News"
                 class="h-64 w-full object-cover"
               />
@@ -1103,13 +1116,18 @@
             <div class="card-body">
               <div class="badge badge-primary text-white mb-2">News</div>
               <h3 class="card-title text-[#1e3a8a]">
-                New Computer Lab Inauguration
+                New Science Lab Inauguration
               </h3>
-              <p class="text-gray-500 text-sm mb-2">September 28, 2023</p>
+              <p class="text-gray-500 text-sm mb-2">September 28, 2024</p>
               <p class="text-gray-600">
                 We are proud to announce the inauguration of our
-                state-of-the-art computer lab equipped with the latest
-                technology.
+                state-of-the-art Science Laboratory, fully equipped with the
+                latest technology and modern facilities! 🔬 This new facility
+                will provide our students with hands-on learning experiences,
+                fostering curiosity, innovation, and scientific excellence. With
+                cutting-edge equipment and interactive experiments, we are
+                committed to nurturing the next generation of scientists,
+                engineers, and medical professionals.🚀
               </p>
               <div class="card-actions justify-end mt-4">
                 <button
@@ -1127,7 +1145,7 @@
           >
             <figure>
               <img
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-03-07%20163528-BMunWtyxjeNYJrbYUcAWN4NkLtUJ51.png"
+                src="/assets/images/enfedam/waecApproved.webp"
                 alt="School Achievement"
                 class="h-64 w-full object-cover"
               />
@@ -1135,13 +1153,20 @@
             <div class="card-body">
               <div class="badge badge-success text-white mb-2">Achievement</div>
               <h3 class="card-title text-[#1e3a8a]">
-                National Math Olympiad Winners
+                We Are Officially WAEC & NECO Approved
               </h3>
-              <p class="text-gray-500 text-sm mb-2">August 10, 2023</p>
+              <p class="text-gray-500 text-sm mb-2">November 29th, 2024</p>
               <p class="text-gray-600">
-                Our students brought home gold medals from the National
-                Mathematics Olympiad, showcasing their exceptional
-                problem-solving skills.
+                We are beyond thrilled to announce that Enfedam Academy has
+                officially received WAEC and NECO accreditation! ✅🎓 This
+                milestone means that our students can now sit for WAEC and NECO
+                examinations right here at our school, paving the way for
+                greater academic excellence and opportunities. A huge thank you
+                to our dedicated staff, students, and parents for your
+                unwavering support! 💙✨ 🚀 The future is bright at Enfedam
+                Academy! Let’s continue to nurture great minds and build future
+                leaders! #WAECApproved ✅ #NECOApproved ✅ #EnfedamAcademy
+                #AcademicExcellence #FutureLeaders
               </p>
               <div class="card-actions justify-end mt-4">
                 <button
