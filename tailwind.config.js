@@ -1,10 +1,14 @@
+import daisyui from 'daisyui';
+
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [  './components/**/*.{js,vue,ts}',
+  content: [
+    './components/**/*.{js,vue,ts}',
     './layouts/**/*.vue',
     './pages/**/*.vue',
     './plugins/**/*.{js,ts}',
-    './nuxt.config.{js,ts}',],
+    './nuxt.config.{js,ts}',
+  ],
   theme: {
     extend: {
       fontFamily: {
@@ -12,16 +16,9 @@ export default {
         grotesk: ['Space Grotesk', 'sans-serif'],
       },
     },
-    // colors: {
-    //   btn: "#00416A", 
-    //   textColor:"#ffffff"
-    //   // Custom primary color
-    // },
   },
- 
-  plugins: [require('daisyui')], // Add DaisyUI as a plugin
+  plugins: [daisyui], // Import DaisyUI properly
   daisyui: {
     themes: ['light', 'dark', 'cupcake'], // Add your desired themes here
   },
-}
-
+};
