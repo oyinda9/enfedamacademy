@@ -71,7 +71,7 @@
             Join us Today
           </NuxtLink>
           <NuxtLink
-            to="/login"
+            to="/"
             class="btn btn-warning rounded-full border-2 border-[#f59e0b] bg-white font-medium px-4 py-1 text-[#00416A]"
           >
             Log in
