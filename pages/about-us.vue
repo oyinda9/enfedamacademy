@@ -772,7 +772,7 @@
           </figure>
           <div class="card-body">
             <h3 class="card-title text-2xl text-pink-600">Auditorium</h3>
-            <p class="text-sm  leading-relaxed">
+            <p class="text-sm leading-relaxed">
               Enfedam Academy's auditorium is the heart of our events, providing
               a spacious and comfortable space for students, parents, and staff.
               It is equipped with modern sound and lighting, ensuring an
@@ -835,7 +835,7 @@
           <div class="card bg-base-100 shadow-xl">
             <figure>
               <img
-                src="../public/assets/images/enfedam/sports.jpg"
+                src="../public/assets/images/enfedam//IMG-20241023-WA0004.jpg"
                 alt="Sports"
                 class="w-full h-40 object-cover"
               />
@@ -855,7 +855,7 @@
           <div class="card bg-base-100 shadow-xl">
             <figure>
               <img
-                src="../public/assets/images/enfedam/cultural-day.jpg"
+                src="../public/assets/images/enfedam/IMG-20241023-WA0004.jpg"
                 alt="Cultural Day"
                 class="w-full h-40 object-cover"
               />
@@ -873,7 +873,7 @@
           <div class="card bg-base-100 shadow-xl">
             <figure>
               <img
-                src="../public/assets/images/enfedam/career-day.jpg"
+                src="../public/assets/images/enfedam/IMG-20241023-WA0163.jpg"
                 alt="Career Day"
                 class="w-full h-40 object-cover"
               />
@@ -891,7 +891,7 @@
           <div class="card bg-base-100 shadow-xl">
             <figure>
               <img
-                src="../public/assets/images/enfedam/color-day.jpg"
+                src="../public/assets/images/enfedam/IMG-20241023-WA0191.jpg"
                 alt="Color Day"
                 class="w-full h-40 object-cover"
               />
@@ -909,7 +909,7 @@
           <div class="card bg-base-100 shadow-xl">
             <figure>
               <img
-                src="../public/assets/images/enfedam/fruit-day.jpg"
+                src="../public/assets/images/enfedam/IMG-20241024-WA0037.jpg"
                 alt="Fruit Day"
                 class="w-full h-40 object-cover"
               />
@@ -929,7 +929,7 @@
           <div class="card bg-base-100 shadow-xl">
             <figure>
               <img
-                src="../public/assets/images/enfedam/taekwondo.jpg"
+                src="../public/assets/images/enfedam/IMG-20241029-WA0033.jpg"
                 alt="Taekwondo"
                 class="w-full h-40 object-cover"
               />
