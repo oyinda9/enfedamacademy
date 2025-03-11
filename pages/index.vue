@@ -80,7 +80,7 @@
           <div class="col-span-2 md:col-span-1 relative">
             <div class="relative">
               <img
-                src="../public/assets/images/enfedam/imgb2.jpg"
+                src="../assets/images/enfedam/imgb2.jpg"
                 alt="School Building"
                 class="w-full h-64 object-cover rounded-lg shadow-lg"
                 style="border-bottom-right-radius: 40px; overflow: hidden"
@@ -95,7 +95,7 @@
                 ref="video"
                 src="https://your-video-url.mp4"
                 class="w-[300px] h-[150px] md:h-[200px] object-cover rounded-lg shadow-lg"
-                poster="../public/assets/images/enfedam/stud.jpg"
+                poster="../assets/images/enfedam/stud.jpg"
               ></video>
 
               <!-- Play Button Overlay -->
@@ -490,7 +490,7 @@
           >
             <figure>
               <img
-                src="../public/assets/images/enfedam/creche.jpg"
+                src="../assets/images/enfedam/creche.jpg"
                 alt="Primary School"
                 class="h-64 w-full object-cover"
               />
@@ -519,7 +519,7 @@
           >
             <figure>
               <img
-                src="../public/assets/images/enfedam/IMG-20241023-WA0176.jpg"
+                src="../assets/images/enfedam/IMG-20241023-WA0176.jpg"
                 alt="Primary School"
                 class="h-64 w-full object-cover"
               />
@@ -547,7 +547,7 @@
           >
             <figure>
               <img
-                src="../public/assets/images/enfedam/IMG-20241023-WA0163.jpg"
+                src="../assets/images/enfedam/IMG-20241023-WA0163.jpg"
                 alt="Junior Secondary"
                 class="h-64 w-full object-cover"
               />
@@ -576,7 +576,7 @@
           >
             <figure>
               <img
-                src="../public/assets/images/enfedam/IMG-20241023-WA0164.jpg"
+                src="../assets/images/enfedam/IMG-20241023-WA0164.jpg"
                 alt="Senior Secondary"
                 class="h-64 w-full object-cover"
               />
@@ -625,7 +625,7 @@
             >
               <figure>
                 <img
-                  src="../public/assets/images/enfedam/IMG-20240927-WA0006.jpg"
+                  src="../assets/images/enfedam/IMG-20240927-WA0006.jpg"
                   alt="Modern Library"
                   class="w-full h-48 object-cover"
                 />
@@ -645,7 +645,7 @@
             >
               <figure>
                 <img
-                  src="../public/assets/images/enfedam/IMG-20241023-WA0166.jpg"
+                  src="../assets/images/enfedam/IMG-20241023-WA0166.jpg"
                   alt="Science Labs"
                   class="w-full h-48 object-cover"
                 />
@@ -665,7 +665,7 @@
             >
               <figure>
                 <img
-                  src="../public/assets/images/enfedam/IMG-20241023-WA0185.jpg"
+                  src="../assets/images/enfedam/IMG-20241023-WA0185.jpg"
                   alt="Computer Lab"
                   class="w-full h-48 object-cover"
                 />
@@ -685,7 +685,7 @@
             >
               <figure>
                 <img
-                  src="../public/assets/images/enfedam/IMG-20241023-WA0187.jpg"
+                  src="../assets/images/enfedam/IMG-20241023-WA0187.jpg"
                   alt="Arts & Music"
                   class="w-full h-48 object-cover"
                 />
@@ -705,7 +705,7 @@
             >
               <figure>
                 <img
-                  src="../public/assets/images/enfedam/IMG-20240927-WA0021.jpg"
+                  src="../assets/images/enfedam/IMG-20240927-WA0021.jpg"
                   alt="Sports Complex"
                   class="w-full h-48 object-cover"
                 />
@@ -727,7 +727,7 @@
             >
               <figure>
                 <img
-                  src="../public/assets/images/enfedam/IMG-20241023-WA0162.jpg"
+                  src="../assets/images/enfedam/IMG-20241023-WA0162.jpg"
                   alt="Health & First Aid"
                   class="w-full h-48 object-cover"
                 />
@@ -1202,56 +1202,56 @@
         <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           <div class="hover:opacity-90 transition-opacity">
             <img
-              src="../public/assets/images/enfedam/IMG-20241023-WA0005.jpg"
+              src="../assets/images/enfedam/IMG-20241023-WA0005.jpg"
               alt="School Gallery"
               class="h-64 w-full object-cover rounded-lg shadow-md"
             />
           </div>
           <div class="hover:opacity-90 transition-opacity">
             <img
-              src="../public/assets/images/enfedam/IMG-20241023-WA0159.jpg"
+              src="../assets/images/enfedam/IMG-20241023-WA0159.jpg"
               alt="School Gallery"
               class="h-64 w-full object-cover rounded-lg shadow-md"
             />
           </div>
           <div class="hover:opacity-90 transition-opacity">
             <img
-              src="../public/assets/images/enfedam/IMG-20241023-WA0170.jpg"
+              src="../assets/images/enfedam/IMG-20241023-WA0170.jpg"
               alt="School Gallery"
               class="h-64 w-full object-cover rounded-lg shadow-md"
             />
           </div>
           <div class="hover:opacity-90 transition-opacity">
             <img
-              src="../public/assets/images/enfedam/IMG-20241023-WA0187.jpg"
+              src="../assets/images/enfedam/IMG-20241023-WA0187.jpg"
               alt="School Gallery"
               class="h-64 w-full object-cover rounded-lg shadow-md"
             />
           </div>
           <div class="hover:opacity-90 transition-opacity">
             <img
-              src="../public/assets/images/enfedam/schoolB.png"
+              src="../assets/images/enfedam/schoolB.png"
               alt="School Gallery"
               class="h-64 w-full object-cover rounded-lg shadow-md"
             />
           </div>
           <div class="hover:opacity-90 transition-opacity">
             <img
-              src="../public/assets/images/enfedam/IMG-20241029-WA0035.jpg"
+              src="../assets/images/enfedam/IMG-20241029-WA0035.jpg"
               alt="School Gallery"
               class="h-64 w-full object-cover rounded-lg shadow-md"
             />
           </div>
           <div class="hover:opacity-90 transition-opacity">
             <img
-              src="../public/assets/images/enfedam/IMG-20241024-WA0022.jpg"
+              src="../assets/images/enfedam/IMG-20241024-WA0022.jpg"
               alt="School Gallery"
               class="h-64 w-full object-cover rounded-lg shadow-md"
             />
           </div>
           <div class="hover:opacity-90 transition-opacity">
             <img
-              src="../public/assets/images/enfedam/IMG-20241023-WA0159.jpg"
+              src="../assets/images/enfedam/IMG-20241023-WA0159.jpg"
               alt="School Gallery"
               class="h-64 w-full object-cover rounded-lg shadow-md"
             />
