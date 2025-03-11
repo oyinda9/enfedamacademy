@@ -1,8 +1,11 @@
 <template>
   <div class="">
     <!-- Hero Section -->
-    <section class="relative h-[500px] font-pop">
+    <section class="relative h-[400px] sm:h-[500px] md:h-[600px] font-pop">
+      <!-- Dark overlay -->
       <div class="absolute inset-0 bg-black/50 z-10"></div>
+
+      <!-- Background image -->
       <div
         class="absolute inset-0 bg-cover bg-center"
         style="
@@ -10,26 +13,32 @@
         "
       ></div>
 
+      <!-- Content -->
       <div
-        class="relative z-20 container mx-auto h-full flex flex-col justify-center items-center text-white text-center px-4 font-pop"
+        class="relative z-20 container mx-auto h-full flex flex-col justify-center items-center text-white text-center px-4"
       >
-        <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold font-pop mb-4">
+        <h2 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
           Welcome to Enfedam Academy
         </h2>
-        <p class="text-xl md:text-2xl mb-8 font-poppins">
+        <p class="text-lg sm:text-xl md:text-2xl lg:text-3xl mb-6">
           Elevating Your Child's Well-Being Is Our Top Priority
         </p>
-        <div class="flex flex-col sm:flex-row gap-4">
+        <!-- button -->
+        <div
+          class="flex flex-row gap-2 w-full justify-center lg:justify-center lg:w-[500px] sm:justify-start"
+        >
           <a
             href="#about"
-            class="border-2 border-white text-white bg-[#00416A] w-[230px] px-2 py-2 rounded-full"
-            >Learn more about us</a
+            class="border-2 border-white text-white bg-[#00416A] lg:w-[200px] sm:w-[140px] px-3 py-2 rounded-full text-center text-sm"
           >
+            Learn more about us
+          </a>
           <a
             href="#admissions"
-            class="btn btn-lg bg-white text-[#00416A] hover:bg-gray-100 rounded-full px-4 py-2"
-            >Join us today</a
+            class="btn btn-lg bg-white text-[#00416A] hover:bg-gray-100 rounded-full px-3 py-2 lg:w-[200px] sm:w-[140px] sm:w-auto text-center text-sm"
           >
+            Join us
+          </a>
         </div>
       </div>
     </section>
@@ -75,7 +84,7 @@
       class="py-16 px-4 md:px-8 lg:px-16 bg-base-100 font-pop"
     >
       <div class="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 relative">
+        <div class="hidden md:grid grid-cols-1 md:grid-cols-2 gap-4 relative">
           <!-- School Image 1 -->
           <div class="col-span-2 md:col-span-1 relative">
             <div class="relative">
@@ -149,63 +158,74 @@
           </div>
         </div>
 
-        <div class="space-y-8 ml-[80px]">
+        <div class="space-y-6 sm:space-y-8 ml-4 sm:ml-[80px]">
+          <!-- About Us Section -->
           <div>
-            <h2 class="text-4xl font-bold text-[#1e3a8a] mb-4">About Us</h2>
-            <p class="text-gray-700">
+            <h2
+              class="text-2xl sm:text-4xl font-bold text-[#1e3a8a] mb-2 sm:mb-4"
+            >
+              About Us
+            </h2>
+            <p class="text-gray-700 text-sm sm:text-base">
               Founded in 2014, Enfedam Academy stands as a beacon of educational
               excellence and holistic development.
             </p>
           </div>
 
-          <div class="space-y-6 ml-[12px]">
-            <div class="flex items-start gap-4">
+          <!-- Mission Points -->
+          <div class="space-y-4 sm:space-y-6 ml-2 sm:ml-[12px]">
+            <!-- Point 1 -->
+            <div class="flex items-start gap-3 sm:gap-4">
               <div class="bg-[#1e3a8a] rounded-full p-1 mt-1">
-                <Circle class="w-4 h-4 text-white" />
+                <Circle class="w-3 h-3 sm:w-4 sm:h-4 text-white" />
               </div>
-              <p class="text-gray-700">
+              <p class="text-gray-700 text-sm sm:text-base">
                 Our mission is to foster a dynamic learning environment that
                 empowers students to achieve their highest potential, both
                 academically and personally.
               </p>
             </div>
 
-            <div class="flex items-start gap-4">
+            <!-- Point 2 -->
+            <div class="flex items-start gap-3 sm:gap-4">
               <div class="bg-[#1e3a8a] rounded-full p-1 mt-1">
-                <Circle class="w-4 h-4 text-white" />
+                <Circle class="w-3 h-3 sm:w-4 sm:h-4 text-white" />
               </div>
-              <p class="text-gray-700">
+              <p class="text-gray-700 text-sm sm:text-base">
                 At Enfedam Academy, we believe in the power of quality education
                 to transform lives.
               </p>
             </div>
 
-            <div class="flex items-start gap-4">
+            <!-- Point 3 -->
+            <div class="flex items-start gap-3 sm:gap-4">
               <div class="bg-[#1e3a8a] rounded-full p-1 mt-1">
-                <Circle class="w-4 h-4 text-white" />
+                <Circle class="w-3 h-3 sm:w-4 sm:h-4 text-white" />
               </div>
-              <p class="text-gray-700">
+              <p class="text-gray-700 text-sm sm:text-base">
                 Our curriculum blends academic excellence with extracurricular
                 activities, fostering creativity, leadership, and innovation.
               </p>
             </div>
 
-            <div class="flex items-start gap-4">
+            <!-- Point 4 -->
+            <div class="flex items-start gap-3 sm:gap-4">
               <div class="bg-[#1e3a8a] rounded-full p-1 mt-1">
-                <Circle class="w-4 h-4 text-white" />
+                <Circle class="w-3 h-3 sm:w-4 sm:h-4 text-white" />
               </div>
-              <p class="text-gray-700">
+              <p class="text-gray-700 text-sm sm:text-base">
                 We nurture a culture of integrity, respect, and inclusivity,
                 ensuring that every student thrives in a supportive learning
                 environment.
               </p>
             </div>
 
-            <div class="flex items-start gap-4">
+            <!-- Point 5 -->
+            <div class="flex items-start gap-3 sm:gap-4">
               <div class="bg-[#1e3a8a] rounded-full p-1 mt-1">
-                <Circle class="w-4 h-4 text-white" />
+                <Circle class="w-3 h-3 sm:w-4 sm:h-4 text-white" />
               </div>
-              <p class="text-gray-700">
+              <p class="text-gray-700 text-sm sm:text-base">
                 Enfedam Academy equips students with 21st-century skills,
                 preparing them for higher education and successful careers.
               </p>
@@ -213,14 +233,19 @@
           </div>
 
           <!-- Buttons -->
-          <div class="flex justify-between items-center mt-6">
-            <button @click="scrollToTop" class="btn btn-warning btn-square">
-              <ChevronUp class="w-6 h-6 text-white" />
+          <div class="flex justify-between items-center mt-4 sm:mt-6">
+            <!-- Scroll to Top Button -->
+            <button
+              @click="scrollToTop"
+              class="btn btn-warning btn-square p-2 sm:p-3"
+            >
+              <ChevronUp class="w-4 h-4 sm:w-6 sm:h-6 text-white" />
             </button>
 
+            <!-- Learn More Button -->
             <NuxtLink
               to="/about-us"
-              class="px-6 py-2 text-white bg-[#00416A] rounded-lg hover:bg-[#15317e] inline-block text-center"
+              class="px-4 py-1.5 sm:px-6 sm:py-2 text-white bg-[#00416A] rounded-lg hover:bg-[#15317e] inline-block text-center text-sm sm:text-base"
             >
               Learn More
             </NuxtLink>
@@ -229,54 +254,8 @@
       </div>
     </section>
 
-  
     <!-- Our Vision & Mission -->
-    <!-- <section class="py-16 px-4 md:px-8 lg:px-16 bg-gray-50">
-      <div class="container mx-auto">
-        <div class="text-center mb-12">
-          <h2 class="text-4xl font-bold text-[#1e3a8a] mb-4">
-            Our Vision & Mission
-          </h2>
-          <div class="w-24 h-1 bg-[#f59e0b] mx-auto"></div>
-        </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div class="card bg-base-100 shadow-xl">
-            <div class="card-body">
-              <div class="flex justify-center mb-4">
-                <div class="bg-[#1e3a8a] p-4 rounded-full">
-                  <Eye class="w-8 h-8 text-white" />
-                </div>
-              </div>
-              <h3 class="text-2xl font-bold text-center mb-4">Our Vision</h3>
-              <p class="text-gray-700 text-center">
-                To be the leading educational institution that nurtures future
-                leaders with strong moral values, academic excellence, and a
-                global mindset, empowering them to make positive contributions
-                to society.
-              </p>
-            </div>
-          </div>
-
-          <div class="card bg-base-100 shadow-xl">
-            <div class="card-body">
-              <div class="flex justify-center mb-4">
-                <div class="bg-[#f59e0b] p-4 rounded-full">
-                  <Target class="w-8 h-8 text-white" />
-                </div>
-              </div>
-              <h3 class="text-2xl font-bold text-center mb-4">Our Mission</h3>
-              <p class="text-gray-700 text-center">
-                To provide a holistic education that balances academic rigor
-                with character development, fostering critical thinking,
-                creativity, and a passion for lifelong learning in a safe and
-                supportive environment.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
     <section
       class="py-16 px-4 md:px-8 lg:px-16 relative overflow-hidden font-pop"
     >
@@ -303,7 +282,7 @@
         <!-- Header with decorative elements -->
         <div class="text-center mb-16 relative">
           <h2
-            class="text-4xl md:text-5xl font-bold text-[#1e3a8a] mb-6 relative z-10"
+            class="text-2xl sm:text-3xl md:text-4xl font-bold text-[#1e3a8a] mb-4 sm:mb-6 relative z-10"
           >
             Our Vision & Mission
           </h2>
@@ -317,10 +296,13 @@
         </div>
 
         <!-- Cards with enhanced aesthetic design -->
-        <div class="max-w-4xl mx-auto flex gap-12">
+
+        <div
+          class="max-w-4xl mx-auto flex flex-col md:flex-row gap-6 md:gap-12 px-4"
+        >
           <!-- Vision Card -->
           <div
-            class="bg-white h-[500px] rounded-3xl shadow-xl overflow-hidden mb-12 transform transition-all duration-300 hover:scale-102 hover:shadow-2xl relative group"
+            class="bg-white h-auto md:h-[500px] rounded-3xl shadow-xl overflow-hidden transform transition-all duration-300 hover:scale-102 hover:shadow-2xl relative group"
           >
             <!-- Top decorative border with gradient -->
             <div
@@ -328,8 +310,8 @@
             ></div>
 
             <!-- Card content with enhanced styling -->
-            <div class="p-8 md:p-10">
-              <div class="flex justify-center mb-8 relative">
+            <div class="p-6 md:p-10">
+              <div class="flex justify-center mb-6 md:mb-8 relative">
                 <!-- Decorative ring around icon -->
                 <div
                   class="absolute inset-0 rounded-full bg-blue-100 transform scale-150 opacity-0 group-hover:opacity-30 transition-all duration-500"
@@ -337,12 +319,12 @@
 
                 <!-- Icon container with gradient -->
                 <div
-                  class="relative bg-gradient-to-br from-[#1e3a8a] to-[#3b82f6] p-5 rounded-full shadow-lg transform group-hover:rotate-12 transition-transform duration-500"
+                  class="relative bg-gradient-to-br from-[#1e3a8a] to-[#3b82f6] p-4 md:p-5 rounded-full shadow-lg transform group-hover:rotate-12 transition-transform duration-500"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="32"
-                    height="32"
+                    width="28"
+                    height="28"
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
@@ -360,8 +342,8 @@
               </div>
 
               <!-- Title with decorative elements -->
-              <div class="text-center mb-6 relative">
-                <h3 class="text-3xl md:text-4xl font-bold text-[#1e3a8a] mb-2">
+              <div class="text-center mb-4 md:mb-6 relative">
+                <h3 class="text-2xl md:text-3xl font-bold text-[#1e3a8a] mb-2">
                   Our Vision
                 </h3>
                 <!-- Small decorative dots -->
@@ -374,7 +356,7 @@
 
               <!-- Content with enhanced typography -->
               <p
-                class="text-gray-700 text-center text-lg leading-relaxed max-w-2xl mx-auto"
+                class="text-gray-700 text-center text-base md:text-lg leading-relaxed"
               >
                 To be the leading educational institution that nurtures future
                 leaders with strong moral values, academic excellence, and a
@@ -384,17 +366,17 @@
 
               <!-- Decorative corner elements -->
               <div
-                class="absolute top-0 right-0 w-24 h-24 bg-blue-200 rounded-bl-full opacity-30 transform -translate-y-12 translate-x-12"
+                class="absolute top-0 right-0 w-16 h-16 md:w-24 md:h-24 bg-blue-200 rounded-bl-full opacity-30 transform -translate-y-8 md:-translate-y-12 translate-x-8 md:translate-x-12"
               ></div>
               <div
-                class="absolute bottom-0 left-0 w-16 h-16 bg-indigo-300 rounded-tr-full opacity-30 transform translate-y-8 -translate-x-8"
+                class="absolute bottom-0 left-0 w-12 h-12 md:w-16 md:h-16 bg-indigo-300 rounded-tr-full opacity-30 transform translate-y-4 md:translate-y-8 -translate-x-4 md:-translate-x-8"
               ></div>
             </div>
           </div>
 
           <!-- Mission Card -->
           <div
-            class="bg-white h-[500px] rounded-3xl shadow-xl overflow-hidden transform transition-all duration-300 hover:scale-102 hover:shadow-2xl relative group"
+            class="bg-white h-auto md:h-[500px] rounded-3xl shadow-xl overflow-hidden transform transition-all duration-300 hover:scale-102 hover:shadow-2xl relative group"
           >
             <!-- Top decorative border with gradient -->
             <div
@@ -402,8 +384,8 @@
             ></div>
 
             <!-- Card content with enhanced styling -->
-            <div class="p-8 md:p-10">
-              <div class="flex justify-center mb-8 relative">
+            <div class="p-6 md:p-10">
+              <div class="flex justify-center mb-6 md:mb-8 relative">
                 <!-- Decorative ring around icon -->
                 <div
                   class="absolute inset-0 rounded-full bg-amber-100 transform scale-150 opacity-0 group-hover:opacity-30 transition-all duration-500"
@@ -411,12 +393,12 @@
 
                 <!-- Icon container with gradient -->
                 <div
-                  class="relative bg-gradient-to-br from-[#f59e0b] to-[#f97316] p-5 rounded-full shadow-lg transform group-hover:rotate-12 transition-transform duration-500"
+                  class="relative bg-gradient-to-br from-[#f59e0b] to-[#f97316] p-4 md:p-5 rounded-full shadow-lg transform group-hover:rotate-12 transition-transform duration-500"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="32"
-                    height="32"
+                    width="28"
+                    height="28"
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
@@ -433,8 +415,8 @@
               </div>
 
               <!-- Title with decorative elements -->
-              <div class="text-center mb-6 relative">
-                <h3 class="text-3xl md:text-4xl font-bold text-[#f59e0b] mb-2">
+              <div class="text-center mb-4 md:mb-6 relative">
+                <h3 class="text-2xl md:text-3xl font-bold text-[#f59e0b] mb-2">
                   Our Mission
                 </h3>
                 <!-- Small decorative dots -->
@@ -447,7 +429,7 @@
 
               <!-- Content with enhanced typography -->
               <p
-                class="text-gray-700 text-center text-lg leading-relaxed max-w-2xl mx-auto"
+                class="text-gray-700 text-center text-base md:text-lg leading-relaxed"
               >
                 To provide a holistic education that balances academic rigor
                 with character development, fostering critical thinking,
@@ -457,17 +439,16 @@
 
               <!-- Decorative corner elements -->
               <div
-                class="absolute top-0 left-0 w-24 h-24 bg-amber-200 rounded-br-full opacity-30 transform -translate-y-12 -translate-x-12"
+                class="absolute top-0 left-0 w-16 h-16 md:w-24 md:h-24 bg-amber-200 rounded-br-full opacity-30 transform -translate-y-8 md:-translate-y-12 -translate-x-8 md:-translate-x-12"
               ></div>
               <div
-                class="absolute bottom-0 right-0 w-16 h-16 bg-orange-200 rounded-tl-full opacity-30 transform translate-y-8 translate-x-8"
+                class="absolute bottom-0 right-0 w-12 h-12 md:w-16 md:h-16 bg-orange-200 rounded-tl-full opacity-30 transform translate-y-4 md:translate-y-8 translate-x-4 md:translate-x-8"
               ></div>
             </div>
           </div>
         </div>
       </div>
     </section>
-
 
     <!-- Academic Programs -->
     <section class="py-16 px-4 md:px-8 lg:px-16 bg-base-100 font-pop">
@@ -718,8 +699,6 @@
                 </p>
               </div>
             </div>
-
-         
 
             <!-- Health & First Aid -->
             <div
@@ -1178,12 +1157,11 @@
         <div class="text-center mt-10">
           <NuxtLink to="/newsEventsPage">
             <button
-            class="text-white border border-1 rounded-lg border-[#00416A] px-4 py-2 bg-[#00416A] hover:text-white transition duration-300"
-          >
-            View All News & Events
-          </button>
+              class="text-white border border-1 rounded-lg border-[#00416A] px-4 py-2 bg-[#00416A] hover:text-white transition duration-300"
+            >
+              View All News & Events
+            </button>
           </NuxtLink>
-          
         </div>
       </div>
     </section>
