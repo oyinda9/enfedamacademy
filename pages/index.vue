@@ -9,7 +9,7 @@
       <div
         class="absolute inset-0 bg-cover bg-center"
         style="
-          background-image: url('/assets/images/enfedam/IMG-20240927-WA0006.jpg');
+          background-image: url(&quot;/assets/images/enfedam/IMG-20240927-WA0006.jpg&quot;);
         "
       ></div>
 
@@ -28,13 +28,13 @@
           class="flex flex-row gap-2 w-full justify-center lg:justify-center lg:w-[500px] sm:justify-start"
         >
           <a
-            href="#about"
+            href="/about-us"
             class="border-2 border-white text-white bg-[#00416A] lg:w-[200px] sm:w-[140px] px-3 py-2 rounded-full text-center text-sm"
           >
             Learn more about us
           </a>
           <a
-            href="#admissions"
+            href="/admissions"
             class="btn btn-lg bg-white text-[#00416A] hover:bg-gray-100 rounded-full px-3 py-2 lg:w-[200px] sm:w-[140px] sm:w-auto text-center text-sm"
           >
             Join us
@@ -728,7 +728,9 @@
     <section
       id="admissions"
       class="relative py-16 px-4 md:px-8 lg:px-16 bg-cover bg-no-repeat text-white font-pop"
-      style="background-image: url('/assets/images/enfedam/stud1.jpg')"
+      style="
+        background-image: url(&quot;/assets/images/enfedam/stud1.jpg&quot;);
+      "
     >
       <!-- Dark Overlay -->
       <div class="absolute inset-0 bg-black opacity-80"></div>

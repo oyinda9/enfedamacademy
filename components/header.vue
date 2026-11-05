@@ -71,27 +71,27 @@
           >Home</NuxtLink
         >
         <NuxtLink
-          to="/#about"
+          to="/about-us"
           class="py-2 hover:text-[#f59e0b] transition-colors"
           >About us</NuxtLink
         >
         <NuxtLink
-          to="/#admissions"
+          to="/admissions"
           class="py-2 hover:text-[#f59e0b] transition-colors"
           >Admissions</NuxtLink
         >
         <NuxtLink
-          to="/#news"
+          to="/newsEventsPage"
           class="py-2 hover:text-[#f59e0b] transition-colors"
           >News & Events</NuxtLink
         >
         <NuxtLink
-          to="/#gallery"
+          to="/gallery"
           class="py-2 hover:text-[#f59e0b] transition-colors"
           >Gallery</NuxtLink
         >
         <NuxtLink
-          to="/#contact"
+          to="/contact"
           class="py-2 hover:text-[#f59e0b] transition-colors"
           >Contact</NuxtLink
         >
@@ -108,27 +108,32 @@
           >Home</NuxtLink
         >
         <NuxtLink
-          to="/#about"
+          to="/about-us"
+          @click="isMenuOpen = false"
           class="py-2 text-center hover:text-[#f59e0b] transition-colors"
           >About us</NuxtLink
         >
         <NuxtLink
-          to="/#admissions"
+          to="/admissions"
+          @click="isMenuOpen = false"
           class="py-2 text-center hover:text-[#f59e0b] transition-colors"
           >Admissions</NuxtLink
         >
         <NuxtLink
-          to="/#news"
+          to="/newsEventsPage"
+          @click="isMenuOpen = false"
           class="py-2 text-center hover:text-[#f59e0b] transition-colors"
           >News & Events</NuxtLink
         >
         <NuxtLink
-          to="/#gallery"
+          to="/gallery"
+          @click="isMenuOpen = false"
           class="py-2 text-center hover:text-[#f59e0b] transition-colors"
           >Gallery</NuxtLink
         >
         <NuxtLink
-          to="/#contact"
+          to="/contact"
+          @click="isMenuOpen = false"
           class="py-2 text-center hover:text-[#f59e0b] transition-colors"
           >Contact</NuxtLink
         >
@@ -136,13 +141,13 @@
 
       <div class="flex items-center gap-4 sm:items-end">
         <NuxtLink
-          to="/#admissions"
+          to="/admissions"
           class="btn btn-warning rounded-full border-white border-2 font-medium bg-[#f59e0b] px-4 py-1 text-[#00416A]"
         >
           Join us Today
         </NuxtLink>
         <NuxtLink
-          to="https://enfedam-academy-management-system.vercel.app/"
+          to="https://portal.enfedamacademy.com/"
           class="btn btn-warning rounded-full border-2 border-[#f59e0b] bg-white font-medium px-4 py-1 text-[#00416A]"
         >
           Log in
